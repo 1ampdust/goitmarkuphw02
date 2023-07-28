@@ -1,0 +1,11 @@
+/*header*/
+
+.logo-web {
+    color: var(--iris, #4d5ae5);
+    text-transform: uppercase;
+}
+
+.accent {
+    color: var(--navyblue, #2e2f42);
+    text-transform: uppercase;
+}
