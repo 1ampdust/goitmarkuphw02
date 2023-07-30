@@ -14,9 +14,28 @@
   background-color: var(--primary-white-color);
   font-family: var(--primaty-font);
 }
+
 /* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
 nav ul.nav-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul.nav-list li {
+  margin-right: 20px;
+}
+
+nav ul.nav-list li:last-child {
+  margin-right: 0;
 }
 
 nav ul.nav-list li a {
@@ -49,6 +68,46 @@ header .logo-text {
   text-decoration: none;
 }
 
+/* Contact List in Header */
+.contact-list .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-list .list li {
+  margin-right: 20px;
+}
+
+.contact-list .list li:last-child {
+  margin-right: 0;
+}
+
+.contact-list .list li a {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-color);
+  text-decoration: none;
+}
+
+.contact-list .list li a:hover,
+.contact-list .list li a:focus {
+  color: var(--brand-color);
+}
+
+/* Additional Styling for links with class "link" */
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
 /* Section 1 */
 .section-1 {
   background-color: var(--footer-color);
@@ -79,20 +138,19 @@ header .logo-text {
 }
 
 /* Section 2 */
-.section-2 h2.section-title {
+.list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--footer-color);
+  color: var(--section-background-color, #2e2f42);
 }
-
-.section-2 p.section-paragraph {
+.list-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
-
 /* Section 3 */
 .section-3 h2 {
   font-size: 36px;
