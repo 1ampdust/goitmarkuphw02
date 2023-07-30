@@ -1,5 +1,6 @@
 :root {
   --main-color: #4d5ae5;
+  --section-background-color: #2e2f42; /* Добавил переменную для фона секции */
 }
 
 body {
@@ -21,6 +22,9 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
+}
+.logo .studio {
+  color: var(--section-background-color, #2e2f42);
 }
 
 .link {
@@ -63,12 +67,11 @@ h3 {
 }
 
 .section-title {
-  font-size: 36px;
-  line-height: 1.11;
+  font-size: 56px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
+  color: #ffffff;
 }
 
 .section-button {
@@ -104,6 +107,7 @@ h3 {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .footer {
   background-color: var(--section-background-color, #2e2f42);
   padding: 20px;
@@ -128,4 +132,29 @@ h3 {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+.address {
+  font-style: normal;
+}
+.section h3 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--section-background-color, #2e2f42);
+}
+
+.section ul {
+  list-style: none;
+}
+.section:nth-child(4) {
+  background-color: #f4f4fd;
+}
+
+.section:nth-child(4) li {
+  background-color: #ffffff;
+}
+.footer .logo span {
+  color: #f4f4fd;
 }
