@@ -1,11 +1,12 @@
 :root {
   --main-color: #4d5ae5;
-  --section-background-color: #2e2f42; /* Добавил переменную для фона секции */
+  --section-background-color: #2e2f42;
 }
 
 body {
   font-family: "Raleway", "Roboto", sans-serif;
   color: #434455;
+  background-color: var(--section-background-color, #ffffff);
 }
 
 h1,
@@ -23,7 +24,8 @@ h3 {
   text-transform: uppercase;
   color: var(--main-color);
 }
-.logo .studio {
+
+.logo .studio-text {
   color: var(--section-background-color, #2e2f42);
 }
 
@@ -133,9 +135,11 @@ h3 {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
 .address {
   font-style: normal;
 }
+
 .section h3 {
   font-size: 36px;
   line-height: 1.11;
@@ -148,6 +152,7 @@ h3 {
 .section ul {
   list-style: none;
 }
+
 .section:nth-child(4) {
   background-color: #f4f4fd;
 }
@@ -155,6 +160,39 @@ h3 {
 .section:nth-child(4) li {
   background-color: #ffffff;
 }
-.footer .logo span {
+
+.footer .logo .studio-text {
   color: #f4f4fd;
+}
+
+.section:nth-child(4) {
+  background-color: #f4f4fd;
+}
+
+.section:nth-child(4) .team-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--section-background-color, #2e2f42);
+}
+
+.team-member-name {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.team-member-role {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
