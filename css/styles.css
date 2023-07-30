@@ -1,142 +1,106 @@
+:root {
+  --main-color: #4d5ae5;
+}
+
+body {
+  font-family: "Raleway", "Roboto", sans-serif;
+  color: #434455;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+
+.section {
+  background-color: var(--section-background-color, #2e2f42);
+  padding: 20px;
+  text-align: center;
+}
+
 .section-title {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .section-button {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
 }
 
 .section-button:hover,
 .section-button:focus {
-    background-color: #404BBF;
+  background-color: #404bbf;
 }
 
-/* Стилі для контейнера заголовка */
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+.list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-/* Стилі для навігації та контактів */
-.navigation, .contact-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.list-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-
-.navigation li, .contact-list li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.navigation li:last-child, .contact-list li:last-child {
-    margin-right: 0;
-}
-
-/* Стилі для логотипу */
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-}
-/* Стилі для заголовків та параграфів у списку */
-.list .section-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.list .section-paragraph {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* Перевикористання стилів для заголовків та параграфів у списку */
-.list li:not(:last-child) {
-    margin-bottom: 30px;
-}
-/* Стилі для заголовка і кнопки */
-section {
-    text-align: center; /* Для вирівнювання заголовка та кнопки по центру */
-  }
-  
-  h1 {
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-  }
-  
-  /* Стилі для кнопки */
-  .order-btn {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-    /* Встановлюємо ширину та центруємо кнопку */
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .order-btn:hover,
-  .order-btn:focus {
-    background-color: #404BBF;
-  }
-  /* Стилі для списку */
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  /* Стилі для заголовків та параграфів у списку */
-  .list-approach li {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 30px;
-  }
-  
-  .list-approach .section-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-  
-  .list-approach .section-paragraph {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
