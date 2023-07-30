@@ -14,6 +14,9 @@ h2,
 h3 {
   font-family: "Roboto", sans-serif;
 }
+.studio {
+  color: var(--section-background-color, #2e2f42);
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -23,6 +26,9 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
+}
+.contact-info address {
+  font-style: normal;
 }
 
 .logo .studio-text {
@@ -69,7 +75,7 @@ h3 {
 }
 
 .section-title {
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -198,3 +204,16 @@ h3 {
   line-height: 1.5;
   color: #434455;
 }
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
