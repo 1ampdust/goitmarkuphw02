@@ -79,7 +79,7 @@ header .logo-text {
 }
 
 /* Section 2 */
-.section-2 h2 .section-title {
+.section-2 h2.section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -87,7 +87,7 @@ header .logo-text {
   color: var(--footer-color);
 }
 
-.section-2 p .section-paragraph {
+.section-2 p.section-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -98,14 +98,14 @@ header .logo-text {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.002em;
   text-transform: capitalize;
   color: var(--body-color);
 }
-.section-3 .section-list {
+.section-3 ul.section-list {
   list-style: none;
 }
-.section-3 .section-title {
+.section-3 h2.section-title {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -154,8 +154,8 @@ header .logo-text {
   font-family: var(--title-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--button-color);
   text-decoration: none;
