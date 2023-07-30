@@ -68,7 +68,6 @@ header .logo-text {
   text-decoration: none;
 }
 
-/* Contact List in Header */
 .contact-list .list {
   list-style: none;
   margin: 0;
@@ -98,7 +97,6 @@ header .logo-text {
   color: var(--brand-color);
 }
 
-/* Additional Styling for links with class "link" */
 .link {
   text-decoration: none;
 }
@@ -109,11 +107,11 @@ header .logo-text {
 }
 
 /* Section 1 */
-.section-1 {
+.section-one {
   background-color: var(--footer-color);
 }
 
-.section-1 h1 {
+.section-one h1 {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -179,15 +177,20 @@ header .logo-text {
   color: var(--classic-background-color);
 }
 
-.section-4 ul {
+.section-four {
+  background-color: #f4f4fd;
+  color: #2e2f42;
+}
+
+.section-four ul {
   list-style: none;
 }
 
-.section-4 li {
+.section-four li {
   background-color: var(--primary-white-color);
 }
 
-.section-4 h3 {
+.section-four h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -195,7 +198,7 @@ header .logo-text {
   color: var(--classic-background-color);
 }
 
-.section-4 p {
+.section-four p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
