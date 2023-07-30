@@ -15,10 +15,11 @@
   font-family: var(--primaty-font);
 }
 /* Header */
-nav ul.list {
+nav ul.nav-list {
   list-style: none;
 }
-nav ul.list li a {
+
+nav ul.nav-list li a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -26,22 +27,40 @@ nav ul.list li a {
   color: var(--footer-color);
   text-decoration: none;
 }
-nav ul.list li a:hover,
-nav ul.list li a:focus {
+
+nav ul.nav-list li a:hover,
+nav ul.nav-list li a:focus {
   color: var(--brand-color);
 }
+
+header .logo {
+  font-family: var(--title-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-color);
+  text-decoration: none;
+}
+
+header .logo-text {
+  color: var(--button-color);
+  text-decoration: none;
+}
+
 /* Section 1 */
-.section-class {
+.section-1 {
   background-color: var(--footer-color);
 }
-.section-class h1 {
+.section-1 h1 {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
 }
-.section-class button {
+.section-1 button {
   background-color: var(--button-color);
   font-family: var(--primaty-font);
   font-weight: 500;
@@ -51,29 +70,29 @@ nav ul.list li a:focus {
   color: var(--primary-white-color);
   cursor: pointer;
 }
-.section-class button:hover,
-.section-class button:focus {
+.section-1 button:hover,
+.section-1 button:focus {
   background-color: var(--brand-color);
 }
 /* Section 2 */
-.list {
+.section-2 .list {
   list-style: none;
 }
-.list h3 {
+.section-2 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--classic-background-color);
 }
-.list p {
+.section-2 p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-color);
 }
 /* Section 3 */
-.section-title {
+.section-3 h2 {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -81,34 +100,34 @@ nav ul.list li a:focus {
   text-transform: capitalize;
   color: var(--body-color);
 }
-.section-list {
+.section-3 .section-list {
   list-style: none;
 }
 /* Section 4 */
-.section-four {
+.section-4 {
   background-color: var(--classic-background-color);
 }
 /* Footer */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--footer-color);
   padding: 20px;
-  color: #f4f4fd;
+  color: var(--classic-background-color);
 }
-.footer .logo {
-  font-family: "Raleway", sans-serif;
+.footer .footer-logo {
+  font-family: var(--title-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--button-color);
   text-decoration: none;
 }
-.footer .logo span {
-  color: #f4f4fd;
+.footer .footer-logo span {
+  color: var(--button-color);
 }
 .footer p {
   line-height: 1.5;
-  color: #f4f4fd;
+  color: var(--button-color);
   letter-spacing: 0.02em;
 }
