@@ -53,6 +53,7 @@ header .logo-text {
 .section-1 {
   background-color: var(--footer-color);
 }
+
 .section-1 h1 {
   font-size: 56px;
   line-height: 1.07;
@@ -60,7 +61,8 @@ header .logo-text {
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
 }
-.section-1 button {
+
+.section-button {
   background-color: var(--button-color);
   font-family: var(--primaty-font);
   font-weight: 500;
@@ -70,27 +72,27 @@ header .logo-text {
   color: var(--primary-white-color);
   cursor: pointer;
 }
-.section-1 button:hover,
-.section-1 button:focus {
+
+.section-button:hover,
+.section-button:focus {
   background-color: var(--brand-color);
 }
+
 /* Section 2 */
-.section-2 .list {
-  list-style: none;
-}
-.section-2 h3 {
+.section-2 h2 .section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--classic-background-color);
+  color: var(--footer-color);
 }
-.section-2 p {
+
+.section-2 p .section-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-color);
 }
+
 /* Section 3 */
 .section-3 h2 {
   font-size: 36px;
@@ -103,10 +105,45 @@ header .logo-text {
 .section-3 .section-list {
   list-style: none;
 }
-/* Section 4 */
-.section-4 {
-  background-color: var(--classic-background-color);
+.section-3 .section-title {
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
+
+/* Section 4 */
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--classic-background-color);
+}
+
+.section-4 ul {
+  list-style: none;
+}
+
+.section-4 li {
+  background-color: var(--primary-white-color);
+}
+
+.section-4 h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--classic-background-color);
+}
+
+.section-4 p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-color);
+}
+
 /* Footer */
 .footer {
   background-color: var(--footer-color);
@@ -123,11 +160,11 @@ header .logo-text {
   color: var(--button-color);
   text-decoration: none;
 }
+
 .footer .footer-logo span {
-  color: var(--button-color);
+  color: var(--classic-background-color);
 }
-.footer p {
-  line-height: 1.5;
-  color: var(--button-color);
-  letter-spacing: 0.02em;
+
+.footer .footer-paragraph {
+  color: var(--classic-background-color);
 }
