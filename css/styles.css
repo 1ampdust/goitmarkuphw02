@@ -6,7 +6,7 @@
 body {
   font-family: "Raleway", "Roboto", sans-serif;
   color: #434455;
-  background-color: var(--section-background-color, #ffffff);
+
 }
 
 h1,
@@ -69,18 +69,11 @@ h3 {
 }
 
 .section {
-  background-color: var(--section-background-color, #2e2f42);
   padding: 20px;
   text-align: center;
 }
 
-.section-title {
-  font-size: 36px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
+
 
 .section-button {
   background-color: #4d5ae5;
@@ -204,16 +197,3 @@ h3 {
   line-height: 1.5;
   color: #434455;
 }
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/Raleway-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
-}
-
