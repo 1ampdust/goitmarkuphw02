@@ -137,12 +137,21 @@ address {
 }
 
 /* Section 2 */
+.section-2 .list {
+  list-style: none;
+  padding: 0;
+}
+
+.section-2 .list-item {
+  margin-bottom: 20px;
+}
+
 .section-2 .list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--section-background-color, #2e2f42);
+  color: #2e2f42;
 }
 
 .section-2 .list-paragraph {
@@ -157,7 +166,7 @@ address {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.002em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--body-color);
 }
