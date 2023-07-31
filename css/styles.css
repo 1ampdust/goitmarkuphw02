@@ -190,6 +190,7 @@ address {
 
 .section-3 ul.section-list {
   list-style: none;
+  letter-spacing: 0.02em;
 }
 
 .section-3 h2.section-title {
