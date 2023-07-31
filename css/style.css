@@ -198,13 +198,22 @@ address {
 }
 
 /* Section 4 */
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.002em;
+  text-transform: capitalize;
+}
 .section-four {
-  background-color: var(--primary-white-color);
+  background-color: var(--classic-background-color);
   color: #2e2f42;
 }
 
 .section-four ul {
   list-style: none;
+  background-color: #ffffff;
 }
 
 .section-four h3 {
