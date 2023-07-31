@@ -1,229 +1,183 @@
-/* Head */
-:root {
-  --brand-color: #404bbf;
-  --primary-white-color: #ffffff;
-  --body-color: #434455;
-  --classic-background-color: #f4f4fd;
-  --footer-color: #2e2f42;
-  --button-color: #4d5ae5;
-  --primaty-font: "Roboto", sans-serif;
-  --title-font: "Raleway", sans-serif;
-}
-
 body {
-  color: var(--body-color);
-  background-color: var(--primary-white-color);
-  font-family: var(--primaty-font);
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
-/* Header */
-header {
-  padding: 20px;
+:root {
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --slate: #434455;
+  --white: #fff;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
 }
+/* header css */
 
-nav ul.nav-list {
+.list {
   list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav ul.nav-list li {
-  margin-right: 20px;
-}
-
-nav ul.nav-list li:last-child {
-  margin-right: 0;
-}
-
-nav ul.nav-list li a {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--footer-color);
-  text-decoration: none;
-}
-
-nav ul.nav-list li a:hover,
-nav ul.nav-list li a:focus {
-  color: var(--brand-color);
-}
-
-header .logo {
-  font-family: var(--title-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--footer-color);
-  text-decoration: none;
-}
-
-header .logo-text {
-  color: var(--button-color);
-}
-
-.contact-list .list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-}
-
-.contact-list .list li {
-  margin-right: 20px;
-}
-
-.contact-list .list li:last-child {
-  margin-right: 0;
-}
-
-.contact-list .list li a {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--body-color);
-  text-decoration: none;
-}
-
-.contact-list .list li a:hover,
-.contact-list .list li a:focus {
-  color: var(--brand-color);
 }
 
 .link {
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
-  color: #404bbf;
+.logo {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-address {
+.studio-color {
+  color: var(--navyblue);
+}
+
+.nav {
+  font-family: "Roboto";
+}
+
+.nav-link {
+  color: var(--navyblue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--ocean);
+}
+
+.address {
+  font-family: "Roboto";
+  font-size: 16px;
   font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.32px;
 }
 
-/* Section 1 */
-.section-one {
-  background-color: var(--footer-color);
+.address-link {
+  color: var(--slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.section-one h1 {
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean);
+}
+
+/* main page */
+
+.main-section {
+  background-color: var(--navyblue);
+}
+
+.main-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--primary-white-color);
+  color: var(--white);
 }
-
-.section-button {
-  background-color: var(--button-color);
-  font-family: var(--primaty-font);
+.main-button {
+  background-color: var(--iris);
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--primary-white-color);
+  color: var(--white);
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--ocean);
   cursor: pointer;
 }
 
-.section-button:hover,
-.section-button:focus {
-  background-color: var(--brand-color);
-}
-
-/* Section 2 */
-.section-2 .list {
-  list-style: none;
-}
-
-.section-2 .list-title {
+.sub-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navyblue);
 }
 
-.section-2 .list-paragraph {
+.main-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 
-/* Section 3 */
-.section-3 h2 {
+.title-section-duo {
+  text-align: center;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--body-color);
+  color: var(--navyblue);
 }
 
-.section-3 ul.section-list {
-  list-style: none;
+.main-section-four {
+  background-color: var(--cloud);
 }
 
-.section-3 h2.section-title {
+.section-four-items {
+  background-color: #ffffff;
+}
+
+/* footer  */
+
+.footer {
+  background-color: var(--navyblue);
+}
+
+.footer-paragraph {
+  line-height: 1.5;
+  color: var(--cloud);
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
-/* Section 4 */
-.section-four {
-  background-color: #f4f4fd;
-  color: #2e2f42;
+.footer-logo-color {
+  color: var(--cloud);
 }
-
-.section-four ul {
-  list-style: none;
-}
-
-.section-four h3 {
+/* portfolio main  */
+.btn-menu {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+}
+
+.btn-menu:focus,
+.btn-menu:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.portfolio-title {
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--classic-background-color);
+  color: var(--navyblue);
 }
 
-.section-four p {
+.portfolio-paragraph {
+  color: var(--slate);
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-color);
-}
-
-/* Footer */
-.footer {
-  background-color: var(--footer-color);
-  padding: 20px;
-  color: var(--classic-background-color);
-}
-
-.footer .footer-logo {
-  font-family: var(--title-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--button-color);
-  text-decoration: none;
-}
-
-.footer .footer-logo span {
-  color: var(--classic-background-color);
-}
-
-.footer .footer-paragraph {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--classic-background-color);
 }
