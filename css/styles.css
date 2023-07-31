@@ -1,19 +1,22 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
-
+/* Head */
 :root {
-  --navyblue: #2e2f42;
-  --iris: #4d5ae5;
-  --slate: #434455;
-  --white: #fff;
-  --ocean: #404bbf;
-  --cloud: #f4f4fd;
+  --brand-color: #404bbf;
+  --primary-white-color: #ffffff;
+  --body-color: #434455;
+  --classic-background-color: #f4f4fd;
+  --footer-color: #2e2f42;
+  --button-color: #4d5ae5;
+  --primaty-font: "Roboto", sans-serif;
+  --title-font: "Raleway", sans-serif;
 }
-/* header css */
 
+body {
+  color: var(--body-color);
+  background-color: var(--primary-white-color);
+  font-family: var(--primaty-font);
+}
+
+/* Header */
 .list {
   list-style: none;
 }
@@ -21,7 +24,6 @@ body {
 .link {
   text-decoration: none;
 }
-
 .logo {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
@@ -33,151 +35,216 @@ body {
 }
 
 .studio-color {
-  color: var(--navyblue);
+  color: var(--footer-color);
 }
 
 .nav {
   font-family: "Roboto";
 }
 
-.nav-link {
-  color: var(--navyblue);
+header {
+  padding: 20px;
+}
+
+nav ul.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul.nav-list li {
+  margin-right: 20px;
+}
+
+nav ul.nav-list li:last-child {
+  margin-right: 0;
+}
+
+nav ul.nav-list li a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--footer-color);
+  text-decoration: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--ocean);
+nav ul.nav-list li a:hover,
+nav ul.nav-list li a:focus {
+  color: var(--brand-color);
 }
 
-.address {
-  font-family: "Roboto";
+header .logo {
+  font-family: var(--title-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--footer-color);
+  text-decoration: none;
+}
+
+header .logo-text {
+  color: var(--button-color);
+}
+
+.contact-list .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-list .list li {
+  margin-right: 20px;
+}
+
+.contact-list .list li:last-child {
+  margin-right: 0;
+}
+
+.contact-list .list li a {
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.32px;
-}
-
-.address-link {
-  color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--body-color);
+  text-decoration: none;
 }
 
-.address-link:hover,
-.address-link:focus {
-  color: var(--ocean);
+.contact-list .list li a:hover,
+.contact-list .list li a:focus {
+  color: var(--brand-color);
 }
 
-/* main page */
-
-.main-section {
-  background-color: var(--navyblue);
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
 
-.main-title {
+address {
+  font-style: normal;
+}
+
+/* Section 1 */
+.section-one {
+  background-color: var(--footer-color);
+}
+
+.section-one h1 {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--white);
+  color: var(--primary-white-color);
 }
-.main-button {
-  background-color: var(--iris);
-  font-family: "Roboto", sans-serif;
+
+.section-button {
+  background-color: var(--button-color);
+  font-family: var(--primaty-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);
-}
-
-.main-button:hover,
-.main-button:focus {
-  background-color: var(--ocean);
+  color: var(--primary-white-color);
   cursor: pointer;
 }
 
-.sub-title {
+.section-button:hover,
+.section-button:focus {
+  background-color: var(--brand-color);
+}
+
+/* Section 2 */
+.section-2 .list {
+  list-style: none;
+}
+
+.section-2 .list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navyblue);
+  color: #2e2f42;
 }
 
-.main-paragraph {
+.section-2 .list-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 
-.title-section-duo {
-  text-align: center;
+/* Section 3 */
+.section-3 h2 {
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--navyblue);
+  color: var(--body-color);
 }
 
-.main-section-four {
-  background-color: var(--cloud);
+.section-3 ul.section-list {
+  list-style: none;
 }
 
-.section-four-items {
-  background-color: #ffffff;
-}
-
-/* footer  */
-
-.footer {
-  background-color: var(--navyblue);
-}
-
-.footer-paragraph {
-  line-height: 1.5;
-  color: var(--cloud);
+.section-3 h2.section-title {
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.footer-logo-color {
-  color: var(--cloud);
+/* Section 4 */
+.section-four {
+  background-color: var(--primary-white-color);
+  color: #2e2f42;
 }
-/* portfolio main  */
-.btn-menu {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+
+.section-four ul {
+  list-style: none;
+}
+
+.section-four h3 {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--iris);
-  background-color: var(--cloud);
-}
-
-.btn-menu:focus,
-.btn-menu:hover {
-  color: #ffffff;
-  background-color: #404bbf;
-  cursor: pointer;
-}
-
-.portfolio-title {
   font-size: 20px;
-  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navyblue);
+  color: var(--classic-background-color);
 }
 
-.portfolio-paragraph {
-  color: var(--slate);
+.section-four p {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--body-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--footer-color);
+  padding: 20px;
+  color: var(--classic-background-color);
+}
+
+.footer .footer-logo {
+  font-family: var(--title-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-color);
+  text-decoration: none;
+}
+
+.footer .footer-logo span {
+  color: var(--classic-background-color);
+}
+
+.footer .footer-paragraph {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--classic-background-color);
 }
