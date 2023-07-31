@@ -207,13 +207,13 @@ address {
   text-transform: capitalize;
 }
 .section-four {
-  background-color: var(--classic-background-color);
+  background-color: var(--primary-white-color);
   color: #2e2f42;
 }
 
 .section-four ul {
   list-style: none;
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
 }
 
 .section-four h3 {
@@ -222,6 +222,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--footer-color);
+  background-color: var(--primary-white-color);
 }
 
 .section-four p {
@@ -229,6 +230,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-color);
+  background-color: var(--primary-white-color);
 }
 
 /* Footer */
