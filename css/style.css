@@ -156,6 +156,7 @@ address {
 .section-button:hover,
 .section-button:focus {
   background-color: var(--brand-color);
+  cursor: pointer;
 }
 
 /* Section 2 */
@@ -190,11 +191,9 @@ address {
 
 .section-3 ul.section-list {
   list-style: none;
-  letter-spacing: 0.02em;
 }
 
 .section-3 h2.section-title {
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
