@@ -207,7 +207,7 @@ address {
   text-transform: capitalize;
 }
 .section-four {
-  background-color: var(--primary-white-color);
+  background-color: var(--classic-background-color);
   color: #2e2f42;
 }
 
