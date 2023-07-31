@@ -24,6 +24,7 @@ body {
 .link {
   text-decoration: none;
 }
+
 .logo {
   color: var(--button-color);
   font-family: "Raleway", sans-serif;
@@ -82,7 +83,7 @@ header .logo {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--footer-color);
+  color: var(--button-color);
   text-decoration: none;
 }
 
