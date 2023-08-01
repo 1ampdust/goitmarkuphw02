@@ -45,7 +45,6 @@ body {
 
 nav ul.nav-list {
   list-style: none;
-  display: flex;
 }
 
 nav ul.list li a {
