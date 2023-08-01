@@ -205,6 +205,7 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  background-color: #ffffff;
 }
 .section-four {
   background-color: var(--classic-background-color);
@@ -222,6 +223,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--footer-color);
+  background-color: #ffffff;
 }
 
 .section-four p {
@@ -229,6 +231,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-color);
+  background-color: #ffffff;
 }
 
 /* Footer */
