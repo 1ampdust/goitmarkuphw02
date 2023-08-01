@@ -57,7 +57,7 @@ body {
   color: var(--brand-color);
 }
 
-header .logo-text {
+.logo-text {
   color: var(--button-color);
 }
 
