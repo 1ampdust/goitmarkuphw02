@@ -196,6 +196,9 @@ address {
 .section-3 h2.section-title {
   color: #2e2f42;
 }
+.section-team-card {
+  background-color: #ffffff;
+}
 
 /* Section 4 */
 
@@ -223,7 +226,6 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--footer-color);
-  background-color: #ffffff;
 }
 
 .section-four p {
@@ -231,7 +233,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-color);
-  background-color: #ffffff;
 }
 
 /* Footer */
