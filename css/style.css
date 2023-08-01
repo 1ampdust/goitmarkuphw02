@@ -90,6 +90,9 @@ address {
 /* Section 1 */
 .section-one {
   background-color: var(--footer-color);
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--primary-white-color);
 }
 
 .section-button {
