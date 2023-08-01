@@ -33,6 +33,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--button-color);
+  text-decoration: none;
 }
 
 .studio-color {
@@ -92,6 +94,8 @@ address {
   background-color: var(--footer-color);
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--primary-white-color);
 }
 
