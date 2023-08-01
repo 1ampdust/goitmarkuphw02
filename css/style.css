@@ -27,7 +27,7 @@ body {
 
 .logo {
   color: var(--button-color);
-  font-family: "Raleway", sans-serif;
+  font-family: var(--title-font);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -238,7 +238,7 @@ address {
 /* Portfolio css*/
 /* Main*/
 .filters-button {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primaty-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
