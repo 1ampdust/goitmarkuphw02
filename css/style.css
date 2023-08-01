@@ -43,11 +43,7 @@ body {
   font-family: "Roboto";
 }
 
-nav ul.nav-list {
-  list-style: none;
-}
-
-nav ul.list li a {
+.list-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -56,20 +52,9 @@ nav ul.list li a {
   text-decoration: none;
 }
 
-nav ul.nav-list li a:hover,
-nav ul.nav-list li a:focus {
+.list-link:hover,
+.list-link:focus {
   color: var(--brand-color);
-}
-
-header .logo {
-  font-family: var(--title-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--button-color);
-  text-decoration: none;
 }
 
 header .logo-text {
@@ -107,14 +92,6 @@ address {
   background-color: var(--footer-color);
 }
 
-.section-one h1 {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--primary-white-color);
-}
-
 .section-button {
   background-color: var(--button-color);
   font-family: var(--primaty-font);
@@ -129,7 +106,6 @@ address {
 .section-button:hover,
 .section-button:focus {
   background-color: var(--brand-color);
-  cursor: pointer;
 }
 
 /* Section 2 */
