@@ -48,7 +48,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.08em;
   color: var(--footer-color);
   text-decoration: none;
 }
@@ -65,7 +65,7 @@ body {
 .list-information {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.08em;
   color: var(--body-color);
   text-decoration: none;
 }
