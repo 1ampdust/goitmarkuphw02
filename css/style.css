@@ -155,7 +155,6 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--body-color);
-  background-color: var(--primary-white-color);
 }
 .section-four {
   background-color: var(--classic-background-color);
