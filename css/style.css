@@ -42,7 +42,6 @@ body {
 
 .nav {
   font-family: "Roboto";
-  color: var(--footer-color);
 }
 
 .list-link {
@@ -67,7 +66,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--footer-color);
+  color: var(--body-color);
   text-decoration: none;
 }
 
