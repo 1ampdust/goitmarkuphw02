@@ -42,6 +42,7 @@ body {
 
 .nav {
   font-family: "Roboto";
+  color: var(--footer-color);
 }
 
 .list-link {
@@ -66,7 +67,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-color);
+  color: var(--footer-color);
   text-decoration: none;
 }
 
@@ -88,7 +89,7 @@ address {
 .section-one {
   background-color: var(--footer-color);
 }
-.section-title-1 {
+.section-title-one {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
