@@ -22,7 +22,10 @@ body {
 }
 
 .link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--body-color);
 }
 
 .logo {
@@ -40,17 +43,16 @@ body {
   color: var(--footer-color);
 }
 
-.nav {
-  font-family: "Roboto";
-}
-
-.list-link {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02;
+}
+
+.list-link {
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--footer-color);
-  text-decoration: none;
 }
 
 .list-link:hover,
@@ -73,6 +75,14 @@ body {
 .list-information:hover,
 .list-information:focus {
   color: var(--brand-color);
+}
+
+.pages-list-item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-color);
 }
 
 .link:hover,
