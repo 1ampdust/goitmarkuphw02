@@ -26,7 +26,6 @@ body {
 }
 
 .logo {
-  color: var(--button-color);
   font-family: var(--title-font);
   font-size: 18px;
   font-weight: 800;
@@ -63,11 +62,7 @@ body {
   color: var(--button-color);
 }
 
-.contact-list .list {
-  list-style: none;
-}
-
-.contact-list .list li a {
+.list-information {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -75,8 +70,8 @@ body {
   text-decoration: none;
 }
 
-.contact-list .list li a:hover,
-.contact-list .list li a:focus {
+.list-information:hover,
+.list-information:focus {
   color: var(--brand-color);
 }
 
@@ -116,11 +111,8 @@ address {
 }
 
 /* Section 2 */
-.section-2 .list {
-  list-style: none;
-}
 
-.section-2 .list-title {
+.list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -128,7 +120,7 @@ address {
   color: var(--footer-color);
 }
 
-.section-2 .list-paragraph {
+.list-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -197,7 +189,7 @@ address {
   color: var(--classic-background-color);
 }
 
-.footer .footer-logo {
+.footer-logo {
   font-family: var(--title-font);
   font-weight: 800;
   font-size: 18px;
@@ -208,11 +200,11 @@ address {
   text-decoration: none;
 }
 
-.footer .footer-logo span {
+.footer-logo span {
   color: var(--classic-background-color);
 }
 
-.footer .footer-paragraph {
+.footer-paragraph {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--classic-background-color);
