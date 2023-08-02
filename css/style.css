@@ -141,22 +141,7 @@ address {
 }
 
 /* Section 3 */
-.section-3 h2 {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--body-color);
-}
 
-.section-3 ul.section-list {
-  list-style: none;
-}
-
-.section-3 h2.section-title {
-  color: var(--footer-color);
-}
 .section-team-card {
   background-color: var(--primary-white-color);
 }
@@ -169,6 +154,7 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--body-color);
   background-color: var(--primary-white-color);
 }
 .section-four {
